@@ -1,0 +1,42 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "db",
+    "server",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://4UcRRwa43tan7uc.eb6ba45a628e:BX012dz2FQpHvB0f8tJL@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/guYEkv2JeTCvSg43bG6YVw?ssl={\"rejectUnauthorized\":true}",
+    "DRIZZLE_DATABASE_URL": "mysql://4UcRRwa43tan7uc.eb6ba45a628e:BX012dz2FQpHvB0f8tJL@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/guYEkv2JeTCvSg43bG6YVw?ssl={\"rejectUnauthorized\":true}",
+    "MANUS_WEBDEV_PROJECT_ID": "guYEkv2JeTCvSg43bG6YVw"
+  },
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/guYEkv2JeTCvSg43bG6YVw.git",
+    "expiration": "2026-08-16T09:21:07.568Z",
+    "token": "art_v2_x_5afbba49b349b667a90ca4417082252d94936485?expires=1786872067",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "skilllink",
+  "path": "/home/ubuntu/skilllink",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "W5y6EZ6wE9pNojdJ8ZMgvf",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "YTKbXiXjZNjEf3L9PEuLdN",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Philip Olawuyi Adedo",
+    "OWNER_OPEN_ID": "ArfiKRbuvvD7yHdiD2Bp8h",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "484b30da-5826-47af-aead-c0c68c34a581",
+    "VITE_APP_ID": "guYEkv2JeTCvSg43bG6YVw",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663335200927/eseUizecHlREnylB.png",
+    "VITE_APP_TITLE": "SkillLink — Local Student Skills Marketplace",
+    "VITE_FRONTEND_FORGE_API_KEY": "fJUyFMxUWUwMxgRf79W4ph",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
